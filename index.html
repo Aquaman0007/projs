@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+        #newtodo {
+            width: 22vw auto;
+            background-color:lightgreen;
+            border: 3.5px solid black;
+            margin: auto;
+            box-sizing: border-box;
+
+        }
+
+        .pop {
+            text-align: center;
+            font-family: "Permanent Marker", cursive;           
+            border: 9px solid  black;
+            border-width: 3px;
+            background-color:purple;
+            color:;
+        }
+
+        .push {
+            border: 3px solid;
+            height: 40px;
+            background-color: blueviolet;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .home {
+            border: 2px solid;
+            margin: 8px;
+            background-color: pink;
+            width: 100px auto;
+            font-family:  cursive;
+
+
+        }
+
+        .kk {
+            border: 3px solid;
+            background-color: blueviolet;
+            display: flex;
+
+
+        }
+
+        #add {
+            background-color: darkgrey;
+           
+        }
+
+        .stan {
+            min-height: 450px;
+        }
+        .home:hover{
+            color: crimson;
+            background-color:aquamarine;
+        }
+
+        #add:hover{
+            background-color:indianred;        }
+    
+      .task{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+         margin:10px;
+         border: 2px solid;
+         background-color:chartreuse;
+        }
+/* .align{ text-align: center;} */
+
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="push">
+        <button class="home">HOME</button>
+        <button class="home">LIBRARY</button>
+        <button class="home">HELP</button>
+        <button class="home">ABOUT US</button>
+        <button class="home">MORE</button>
+    </div>
+    <h1 class="pop">TO DO LIST</h1><br><br>
+
+    <div class='align'>
+        <label for="newtodo" class="task" >Enter a new task</label><span>--</span>
+        <input type="text" name="" id="newtodo">
+        <button id="add">ADD</button>
+
+        <div class="stan">
+            <ul id="todolist">
+
+            </ul>
+        </div>
+
+        <footer>
+            <div class="kk">
+                TO DO LIST ALL RIGHT RESEVERD !
+
+            </div>
+        </footer>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

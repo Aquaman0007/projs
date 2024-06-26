@@ -1,0 +1,37 @@
+#newtodo{
+    width: 22vw auto;
+    background-color:crimson;
+    border: 3.5px solid black;
+    margin:   auto;
+
+}
+.pop{
+text-align: center;
+}
+.push{
+border: 3px solid;
+height: 40px;
+background-color: blueviolet;
+margin: auto;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.home{
+border: 2px solid;
+margin:8px;
+background-color:pink ;
+width:100px auto;
+
+
+}
+.kk{
+border: 3px solid;
+background-color: blueviolet;
+height: 20px;
+
+
+}
+#add{
+background-color:darkgrey;
+}
